@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+.container{
+    height: 700px;
+    max-width: 800px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 50px 100px 100px 100px 100px 100px;
+    gap: 10px;
+    font-size: 25px;
+    font-weight: 900;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 4px;
+    margin: 20px;
+
+
+    
+    
+}
+.viv{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 20px;
+}
+input{
+    /* padding: 6px */
+}
+.one{
+    justify-content: center;
+    /* border: 2px s    olid brown; */
+    grid-column: span 2;
+
+
+    
+}
+.two{
+    /* border: 2px solid brown; */
+    /* text-align: center; */
+    
+}
+.three{
+    /* border: 2px solid brown; */
+}
+.four{
+    
+    /* border: 2px solid brown; */
+}
+.five{
+    
+    /* border: 2px solid brown; */
+}
+.six{
+    
+    /* border: 2px solid brown; */
+}
+.seven{
+    
+    /* border: 2px solid brown; */
+}
+.eight{
+    
+    /* border: 2px solid brown; */
+}
+.nine{
+    
+    /* border: 2px solid brown; */
+}
+.ten{
+    
+    /* border: 2px solid brown; */
+    grid-column: span 2;
+    justify-content: center;
+}
+.eleven{
+    justify-content: center;
+    grid-column: span 2  ;
+}
+.eleven button{
+    padding: 10px;
+    width: 91px;
+    background-color: black;
+    color: beige;
+    box-shadow: 10px 6px 10px black;
+    
+    
+}
